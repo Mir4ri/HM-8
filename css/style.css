@@ -106,7 +106,6 @@ textarea {
 	height: 15px;
 	width: 15px;
 	border-radius: 50%;	
-	background: coral;
 
 	
 }
@@ -119,7 +118,6 @@ textarea {
 .items__color-picker__circle--dark-blue--active {
 	background-color: #293550;
 	border: 2px solid #9fa4ac;
-	
 }
 
 .items__color-picker__circle--white {
