@@ -97,13 +97,16 @@ textarea {
 }
 
 .items__color-picker__circle {
-	border-radius: 50%;
+	
 	list-style: none;
 	display: inline-block;
 	transition: all .5s ease-in-out;
-	font-size: 14px;
 	cursor: pointer;
-	margin: 0 2px;
+	margin: 0 2px;	
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;	
+	background: coral;
 
 	
 }
@@ -113,20 +116,22 @@ textarea {
 	
 }
 
-.items__color-picker__circle--dark-blue {
-	color: #293550;
+.items__color-picker__circle--dark-blue--active {
+	background-color: #293550;
+	border: 2px solid #9fa4ac;
+	
 }
 
 .items__color-picker__circle--white {
-	color: #fff;
+	background-color: #fff;
 }
 
 .items__color-picker__circle--red {
-	color: #FD2E2E;
+	background-color: #FD2E2E;
 }
 
 .items__color-picker__circle--cayan {
-	color: #00BBF0;
+	background-color: #00BBF0;
 }
 
 /* info */
