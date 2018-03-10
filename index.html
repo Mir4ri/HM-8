@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NikeSB</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet"/>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
+
+</head>
+<body>
+	<main class="main">
+		<div class="logo">
+			<img src="img/nikesb.jpg" alt="logo" class="logo__img" width="64px" height="32px">
+		</div>
+		<div class="container">
+			<div class="items">
+					<img src="img/ns.png" alt="" class="items__nike">
+					<ul class="items__color-picker">
+						<li class="items__color-picker__circle items__color-picker__circle--dark-blue"><i class="fas fa-circle"></i></li>
+						<li class="items__color-picker__circle items__color-picker__circle--white"><i class="fas fa-circle"></i></li>
+						<li class="items__color-picker__circle items__color-picker__circle--red"><i class="fas fa-circle"></i></li>
+						<li class="items__color-picker__circle items__color-picker__circle--cayan"><i class="fas fa-circle"></i></li>
+					</ul>
+				</div>
+			<div class="info">
+				<div class="info__name">
+					<span class="info__name__span">Nike SB Stefan</span>
+					<span class="info__name__span">Janoski Max</span>
+				</div>
+				<div class="info__description">
+					Unisex Skateboarding Shoe
+				</div>
+					<fieldset class="info__rate">
+						<input type="radio" id="info__rate__star5" name="rating" value="5" /><label for="info__rate__star5"></label>
+						<input type="radio" id="info__rate__star4" name="rating" value="4" /><label for="info__rate__star4"></label>
+						<input type="radio" id="info__rate__star3" name="rating" value="3" /><label for="info__rate__star3"></label>
+						<input type="radio" id="info__rate__star2" name="rating" value="2" /><label for="info__rate__star2"></label>
+						<input type="radio" id="info__rate__star1" name="rating" value="1" /><label for="info__rate__star1"></label></label>
+					</fieldset>
+				<form action="./" method="post" class="form">
+					<select class="form__select--select">
+						<option class="form__option--option">Size</option>
+						<option class="form__option--option">42</option>
+						<option class="form__option--option">43</option>
+						<option class="form__option--option">44</option>
+					</select>
+					<select class="form__select--select">
+						<option class="form__option--option">Qty</option>
+						<option class="form__option--option">Low</option>
+						<option class="form__option--option">Medium</option>
+						<option class="form__option--option">High</option>
+					</select>
+					<input class="form__button" type="submit" value="Add to cart">
+				</form>
+			</div>
+		</div>	
+		
+	</main>
+</body>
+</html>
